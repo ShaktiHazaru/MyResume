@@ -1,0 +1,269 @@
+  body{
+       text-align:center;
+       margin-top:0px;
+       margin-bottom:auto;
+       background-color:#FEFCF3;
+       background-image: url(C:\Users\shazaru\OneDrive - American Express\Desktop\myReactProject\CSS-mysite\images\mountain1.jpg);
+
+  }
+
+  .profile{
+    display:inline-block;
+     margin-top: 25px;
+     height: 100px;
+     width: 100px;
+     position:absolute;
+     left:100px;
+   }
+
+  .About{
+      display: inline-block;
+      position:absolute;
+      margin-top: 50px;
+      right: 250px;
+  }
+  .Work{
+      display:inline-block;
+
+      position:absolute;
+      margin-top: 50px;
+      right: 150px;
+  }
+  .Notes{
+      display:inline-block;
+      position:absolute;
+      margin-top: 50px;
+      right: 50px;
+  }
+
+   h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin: 10px auto 10px auto;
+    color: #66bfbf;
+  }
+
+  h2{
+    font-family: 'Crimson Text', serif;
+    font-size: 2.5em;
+    color:#66bfbf;
+    font-weight: normal;
+    margin-top:0px;
+
+  }
+
+  h3{
+    font-family: 'Libre Baskerville', serif;
+    color: #11999E;
+    font-weight: normal;  
+}
+  
+
+  h4{
+    font-family: 'Libre Baskerville', serif;
+    color: #11999E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  p{
+    color: #11999E;
+
+}
+  
+
+  hr{
+      border: dotted #11999E 6px;
+      border-bottom: none;
+      width: 4%;
+ }
+
+  
+  .top-cloud{
+    mix-blend-mode: multiply;    
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 400px;
+    top:100px;
+    
+ }
+
+ .middle-cloud{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: multiply;  
+    top: 300px;
+    left:700px;
+  
+ }
+
+ .mountain{
+     mix-blend-mode: multiply;
+     position:relative;
+     height: 300px;
+    }
+
+.btn{
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.Mainframe{
+    height:100px;
+    width:100px;
+    float:left;
+    margin-right: 75px;
+}
+
+.tools{
+    height:100px;
+    width:100px;
+    float:left;
+    margin-right:  75px;
+    
+}
+
+.secondary{
+    height:100px;
+    width:100px;
+    float:left;
+    margin-right: 75px;
+
+}
+
+.Cert{
+    height:100px;
+    width:100px;
+    float:left;
+    margin-right: 75px;
+
+}
+
+    .bottom-container{ 
+        display: inline-block;
+                      
+    }
+
+    .footer{
+        background-color: #91D8E4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+
+
+    .skill-row{
+        width:50%;
+        line-height: 2;
+        text-align: left;
+        margin:25px auto 25px auto;
+
+    }
+
+    .P1{
+
+         clear:right;
+
+    }
+    .P2{
+
+        clear:left;
+
+   }
+   .P3{
+
+    clear:left;
+}
+
+.P4{
+
+    clear:left;
+
+}
+.exp{
+
+    height:100px;
+    width:100px;
+    float:left;
+    margin-right: 75px;
+    
+}
+
+.cpy{
+    margin-top: 10px;
+    color:#EAF6f6;
+    font-size: 0.75rem;
+    margin-bottom: 0px;
+}
+
+
+/*Floating Back-To-Top Button*/
+    .myBtn {    
+            font-size:15px;
+            font-family:Arial;
+            width:120px;
+            height:42px;
+            border-width:4px;
+            color:#fff;
+            border-color:#599bb3;
+            font-weight:bold;
+            border-top-left-radius:17px;
+            border-top-right-radius:17px;
+            border-bottom-left-radius:17px;
+            border-bottom-right-radius:17px;
+            box-shadow: -2px 4px 14px -7px #276873;
+            text-shadow: 0px 1px 0px #3d768a;
+            background:linear-gradient(#599bb3, #408c99);
+            margin-left:75%;
+            font-family: 'Libre Baskerville', seriff;
+            display: inline-block;
+          }
+          
+          .myBtn:hover {
+            background: linear-gradient(#408c99, #599bb3);
+          }
+
+    
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+
+    .intro{
+
+        width:50%;
+        margin:auto;
+    }
+
+    .buttonClass {
+        font-size:15px;
+        font-family:Arial;
+        width:105px;
+        height:40px;
+        border-width:1px;
+        color:#fff;
+        border-color:#599bb3;
+        font-weight:bold;
+        border-top-left-radius:16px;
+        border-top-right-radius:16px;
+        border-bottom-left-radius:16px;
+        border-bottom-right-radius:16px;
+        box-shadow: -2px 4px 14px -7px #276873;
+        text-shadow: 0px 1px 0px #3d768a;
+        background:linear-gradient(#599bb3, #408c99);
+        font-family: 'Libre Baskerville', serif;
+        margin-bottom: 25px;
+      }
+      
+      .buttonClass:hover {
+        background: linear-gradient(#408c99, #599bb3);
+      }
+
+      a{
+          text-decoration: none;
+      }
+
