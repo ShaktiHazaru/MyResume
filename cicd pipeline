@@ -18,6 +18,11 @@ check the status
 systemctl status docker
 systemctl status jenkins
 
+MAKE SURE THE security group has correct ports for access.
+
+HTTP - 80 SOURCE 0.0.0.0/0
+TCP - 8080 SOURCE 0.0.0.0/0
+
 STEP2: PROVIDE JENKINS ACCESS TO DOCKER
 
 For Jenkins user to create docker container and run docker images, we need to provide access by running below commands.
@@ -39,6 +44,29 @@ b. under triggers - select GitHub hook trigger for GITScm polling.
 c. under build steps - select execut shell. 
 
 STEP5: APPLY AND SAVE.
+
+
+STEP 5: NEXT CREATE A WEBHOOK FOR THE JENKINS TO GET NOTIFIED IF THERE ARE ANY CHANGES TO THE GIT REPO.
+
+TO SETUP WEBHOOK. 
+
+a . GO TO YOUR REPO, CLICK SETTINGS
+
+CLICK WEBHOOKS ON THE LEFT HAND SIDE
+
+GIVE THE PAYLOAD URL AS http://<ec2-instance-public-ip>:8080/github-webhook/
+
+b. contenty type should be application/json
+
+c. for Which events would you like to trigger this webhook? select "just the push event". 
+
+d. save. 
+
+STEP 6: 
+
+TEST THE CHANGES. 
+
+
 
 
 
