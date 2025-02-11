@@ -29,6 +29,11 @@ For Jenkins user to create docker container and run docker images, we need to pr
 
 usermod -aG docker jenkins
 
+once done restart both jenkins and docker 
+
+systemctl restart docker
+systemctl restart jenkins
+
 STEP3: SETUP JENKINS USER AND CREATE PIPELINE. 
 
 a. copy the password from /var/lib/jenkins/secrets/initialAdminPassword and use that for initial setup. 
