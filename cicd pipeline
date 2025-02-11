@@ -1,0 +1,38 @@
+I have deployed myresume using a docker container by automating the deployment. 
+
+Below are the steps that I have used to complete the automation. 
+  
+STEP 1: START THE EC2 MACHINE ON AWS, INSTALL GIT, DOCKER AND JENKINS. For this I have used t2.large with 20gb volume. 
+
+use this link to install jenkins on aws : https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+
+Once docker and jenkins are installed run
+
+systemctl enable docker
+systemctl enable jenkins
+
+systemctl start docker
+systemctl start jenkins
+
+check the status
+systemctl status docker
+systemctl status jenkins
+
+STEP2: PROVIDE JENKINS ACCESS TO DOCKER
+
+For Jenkins user to create docker container and run docker images, we need to provide access by running below commands.
+
+usermod -aG docker jenkins
+
+STEP3: SETUP JENKINS USER AND CREATE PIPELINE. 
+
+a. copy the password from /var/lib/jenkins/secrets/initialAdminPassword and use that for initial setup. 
+b. install plugins
+c. setup username and password. 
+d. create pipeline, use freestyle project. 
+
+STEP4: CONFIGURING PIPELINE 
+
+a. Source Code Management - git 
+
+
