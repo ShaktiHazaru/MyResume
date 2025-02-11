@@ -1,4 +1,4 @@
-# MyResume
+# MyResume #
 This resume is built only using html and css
 
 I have deployed this html on both HTTPD and NGINX.
