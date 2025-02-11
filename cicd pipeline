@@ -34,5 +34,11 @@ d. create pipeline, use freestyle project.
 STEP4: CONFIGURING PIPELINE 
 
 a. Source Code Management - git 
+ and provide the git repo 
+b. under triggers - select GitHub hook trigger for GITScm polling. 
+c. under build steps - select execut shell. 
+
+STEP5: APPLY AND SAVE.
+
 
 
